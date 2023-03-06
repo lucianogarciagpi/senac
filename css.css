@@ -5,7 +5,9 @@ body {
 
 .container {
   background-color: #ffffff;
+  height: 100vh;
   padding: 30px;
+  margin: 50px
   display: flex;
   justify-content: center;
   align-items: center;
