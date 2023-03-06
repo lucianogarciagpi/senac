@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="css.css">
-    <meta charset="UTF-8">
-    <title>pergunta 1</title>
-</head>
-<body>
-    <div class="container">Pergunta1</div>
-</body>
+<html>
+   <head>
+      <title>Exemplo de HTML e CSS</title>
+      <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+         }
+         .container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+         }
+         .imagem {
+            max-width: 50%;
+         }
+         .texto {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 20px;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <img class="imagem" src="https://github.com/lucianogarciagpi/senac/blob/main/assets/images/logo_senac.png" alt="Minha Imagem">
+         <div class="texto">Meu Texto Centralizado</div>
+      </div>
+   </body>
 </html>
