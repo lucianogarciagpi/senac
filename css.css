@@ -3,13 +3,16 @@ body {
   background-color: #044c8c;
 }
 
+.apresentacao {
+  display: flex;
+  align-items: center;
+}
+
 .container {
   background-color: #ffffff;
   padding: 20px;
   margin: 30px;
-  display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 
