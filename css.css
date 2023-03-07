@@ -6,10 +6,11 @@ body {
 .apresentacao {
   display: flex;
   align-items: center;
+  background-color: #ffffff;
 }
 
 .container {
-  background-color: #ffffff;
+  
   padding: 20px;
   margin: 30px;
   justify-content: center;
