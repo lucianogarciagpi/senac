@@ -9,14 +9,6 @@ body {
   background-color: #ffffff;
 }
 
-.container {
-  
-  padding: 20px;
-  margin: 30px;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .imagem {
    max-width: 30%;
 }
