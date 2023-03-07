@@ -9,6 +9,12 @@ body {
   background-color: #ffffff;
 }
 
+/* Reset os padrões*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .imagem {
    max-width: 30%;
 }
