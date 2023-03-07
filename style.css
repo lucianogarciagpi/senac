@@ -19,10 +19,11 @@ body {
   }
 
   .apresentacao_container{
-   width: 300px;
+   width: auto;
+   height: auto;
    display: flex;
    background-color: #ffffff;
-   padding: 15px;
+   padding: 10px;
    border-radius: 50px;
    justify-content: center;
    align-items: center;
@@ -30,7 +31,7 @@ body {
   }
 
   .apresentacao_container_titulo{
-   padding: 15px;
+   padding: 30px;
    font-size: 28px;
    font-family: 'Montserrat', sans-serif;
    text-align: center;
@@ -38,8 +39,13 @@ body {
   
    
   .imagem {
-     max-width: 100px;
+     max-width: 120px;
   }
   
+  .texto {
+     font-size: 28px;
+     text-align: center;
+     margin-top: 20px;
+  }
   
   
